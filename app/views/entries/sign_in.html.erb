@@ -1,0 +1,18 @@
+<h1>Hello <%= @name %></h1>
+<h1>Hello <%= @name1 %></h1>
+<%= form_tag :action => 'sign_in' do %>
+	<p>Enter your name:
+	<%= text_field_tag 'visitor_name' %></p>
+	<%= text_field_tag 'visitor_name1' %></p>
+	<%= submit_tag 'Sign in' %>
+<% end %>
+
+
+<p>Previous visitors:</p>
+<ul>
+<% @entries.each do |entry| %>
+    <% if entry.name.present? %>
+     <li><%= entry.name %></li>
+    <% end %>
+<% end %>
+</ul>
