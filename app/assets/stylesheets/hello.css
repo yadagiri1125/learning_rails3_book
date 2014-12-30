@@ -1,0 +1,16 @@
+
+body { font-family:sans-serif;
+}
+
+#header_section {font-family:serif;
+font-size: 24pt;
+font-weight: bold;
+color:blue ;
+}
+
+.satish_p{
+margin-left: 65%;
+color: red;
+font-size: 30px;
+font-family: inherit;
+}
