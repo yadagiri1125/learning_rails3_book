@@ -11,3 +11,12 @@
  *= require_self
  *= require_tree .
  */
+.header_section{
+ color:red;
+}
+.body_section{
+ color:blue;
+}
+.email{
+margin-left: 30px;	
+}

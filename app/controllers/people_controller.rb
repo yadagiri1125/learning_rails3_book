@@ -52,8 +52,7 @@ class PeopleController < ApplicationController
       end
     end
   end
-
-  # PUT /people/1
+ # PUT /people/1
   # PUT /people/1.json
   def update
     @person = Person.find(params[:id])

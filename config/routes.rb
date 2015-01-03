@@ -1,4 +1,7 @@
 Helloo1::Application.routes.draw do
+  resources :products
+
+
   resources :people
   get "hello/index"
 

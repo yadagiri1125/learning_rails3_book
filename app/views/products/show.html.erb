@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @product.name %>
+</p>
+
+<p>
+  <b>Secret:</b>
+  <%= @product.secret %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @product.country %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @product.email %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @product.description %>
+</p>
+
+<p>
+  <b>Can send email:</b>
+  <%= @product.can_send_email %>
+</p>
+
+<p>
+  <b>Graduation year:</b>
+  <%= @product.graduation_year %>
+</p>
+
+<p>
+  <b>Body temperature:</b>
+  <%= @product.body_temperature %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @product.price %>
+</p>
+
+<p>
+  <b>Birthday:</b>
+  <%= @product.birthday %>
+</p>
+
+<p>
+  <b>Favorite time:</b>
+  <%= @product.favorite_time %>
+</p>
+
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
