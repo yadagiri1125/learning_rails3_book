@@ -1,4 +1,5 @@
 Helloo1::Application.routes.draw do
+  resources :people
   get "hello/index"
 
   # The priority is based upon order of creation:
